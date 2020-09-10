@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap%27');
+
+
+*{
+    
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-style:normal;
+    font-weight:500;
+    
+}
+
+
+div{
+    padding: 5%;
+}
+
+button{
+  height: 40px;
+  width:290px;
+  border-radius: 10px;
+}
+
+ /* création de la 1ere partie landspage du site  */
+ 
+
+.accueil {
+  
+    background-color: #002F43;
+    color: #ffffff;
+	width: 100vw;
+    height:100vh;
+    text-align: center;
+
+ 
+}
+
+.accueil img{
+height: 10rem;
+
+}  
+
+.accueil h2{
+    margin-top: 20px;
+}
+
+.accueil p{
+    color: #00a9ab;
+    font-size:30px;
+    margin: 5px;
+    padding: 5px;
+}
+#btn-a-1{
+    margin-top:300px;
+    color: #ffffff;
+    font-weight: 900;
+
+}
+#btn-a-1 img{
+    width:10px;
+}
+.btn_pink{
+   
+    background-color:#db5a6e;
+
+}
+ /* création de la 2ere partie landspage du site  */
+
+.descriptif{
+    width: 100vw;
+    height:100vh;
+    margin-top:0;
+    padding-top:0;
+    font-size: 14px;
+    position:relative;
+ }
+
+.descriptif h2{
+    color: #00a8b4;
+ }
+.logo{
+   height: 60px;
+   margin-top:0;
+   padding-top:0; 
+}
+.titre2{
+    text-align: center;
+    margin: 5px;
+    padding:5px;
+}
+.titre2 p{
+    color: #00a8b4;
+}
+#app{
+    display:flex;
+  
+}
+#app .img1{
+    display: block;
+    position: relative; 
+    left: 50px;
+    top:40px;
+    height:120%;
+    width:170%;
+ }
+
+#app .img2{
+    display: block;
+    margin:auto;
+    position: absolute; 
+    top: 420px; 
+    left:150px;
+    width: 80%;
+    height:60%;
+
+ }
+
+#app .img3{
+    display: block;
+    margin:auto;
+    width:100px;
+    height:200px;
+    align-self:flex-end;
+    position: absolute;
+    left: 500px;
+
+   
+ }
+.img3{
+    -webkit-animation: walking 0.6s infinite reverse steps(8);
+animation: walking 0.6s infinite reverse steps(8);
+background-repeat: repeat-x;
+}
+ 
+@-webkit-keyframes walking {
+    100% {
+    background-position: 497px bottom;
+    }
+    }
+    @keyframes walking {
+    100% {
+    background-position: 497px bottom;
+    }
+    }
+#app button{
+   display: block;
+    width:8%;
+    position: absolute;
+    left: 690px;
+    top:570px;
+}
+ /* positionnement du texte*/
+
+
+.text1{
+    display: inline-flex;
+    text-align: right;
+    flex-direction: column;
+    align-items: flex-end ;
+    order:-1;
+   
+}
+
+
+.p1 {
+    margin-bottom: 100px
+}
+
+.p2 {
+    margin-bottom: 60px
+}
+.text2{
+    
+    padding-bottom: 0%;
+    padding-top: 5px;
+    padding-left: 5%;
+    
+}
+
+ /* qui sommes nous?*/
+
+#qui{
+    margin-top: 200px;
+    background-color:#becd32;  
+    width: 100vw;
+    height:100vh;
+    position: relative;
+   
+}
+#qui .logo{
+    position: absolute;
+    left: 10px;
+    top:10px;
+   
+  }
+.imgquilogo{
+    background-color:white;
+    height: 10px;
+    position: relative;
+    padding:3%;
+    left:0;
+    top:1px;
+}
+
+.imsquius{
+height: 40%;
+position:absolute;
+top:400px;
+left: 25%;
+
+}
+
+#qui button{
+    position: absolute;
+    left: 550px;
+    top: 450px;
+}
+/* qui sommes nous?_ texte*/
+   
+#qui h1 {
+    text-align:center;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color:white;
+}
+#qui p{
+    text-align:center;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+ 
